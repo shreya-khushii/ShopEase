@@ -1,0 +1,14 @@
+.product-list-filter {
+    display: flex;
+    position: absolute;
+    margin-top: 66px;
+    width: 100%;
+}
+.filter {
+    display: flex;
+    width: 23%;
+    margin-right: 20px;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

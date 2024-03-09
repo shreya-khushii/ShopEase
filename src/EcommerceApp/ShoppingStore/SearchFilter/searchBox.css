@@ -1,0 +1,56 @@
+.input_field {
+    position: relative;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(98, 127, 172, 0.2);
+}
+.suffix {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    @media (max-width: 768px) {
+        top: 4px;
+    }
+}
+.image-suffix {
+    height: 24px;
+    width: 24px;
+    @media (max-width: 768px) {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.input_field input[type="search"] {
+    padding-left: 8px;
+}
+.input {
+    background: #fff;
+    border-radius: 4px;
+    min-width: 300px;
+    height: 30px;
+    margin-right: 4px;
+    border: none;
+    outline: none;
+
+    @media (max-width: 768px) {
+        min-width: 200px;
+    }
+}
+
+.clear-button {
+    padding: 6.8px;
+    color: #fff;
+    background: #de0c0c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
